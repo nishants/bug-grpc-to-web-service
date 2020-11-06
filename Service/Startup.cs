@@ -43,7 +43,7 @@ namespace Service
             app.UseRouting();
 
             // TODO what about this: 
-            // app.UseGrpcWeb(new GrpcWebOptions { DefaultEnabled = true });
+            app.UseGrpcWeb(new GrpcWebOptions { DefaultEnabled = true });
 
             app.UseAuthorization();
 
